@@ -1,0 +1,24 @@
+@import './base.css';
+
+#app {
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
